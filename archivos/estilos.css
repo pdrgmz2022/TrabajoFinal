@@ -1,6 +1,14 @@
 *{
     font-family: 'Montserrat', sans-serif; 
 }
+
+body{
+    margin: 0px;
+    background-color: #427E80;
+    color: #F0F5E4;
+    
+}
+
 .body-day{
  margin: 0px;
  background-color: #427E80;
@@ -67,11 +75,13 @@ main{
 rect#mon1, polygon#tec1{
     animation: part_1 ease-in 5s  ;
     animation-iteration-count:1 ;
+    
     }
     
 rect#mon2,polygon#tec2 {
 animation: part_2 ease-in 5s  ;
 animation-iteration-count:1 ;
+
 }
 @keyframes part_1{
     0% {
@@ -115,7 +125,7 @@ animation-iteration-count:1 ;
 
 
 header{
- background: url(./assets/imagenes/codigo.jpeg) 50% 0 fixed ;
+ background: url(./archivos/imagenes/codigo.jpeg) 50% 0 fixed ;
  background-size: cover;
  min-height: 500px;
  color: #eeeeee;
